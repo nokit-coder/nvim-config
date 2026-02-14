@@ -16,21 +16,18 @@ return {
 		"neovim/nvim-lspconfig",
 		lazy = false,
 		config = function()
-			local capabilities = require("cmp_nvim_lsp").default_capabilities()
-			local lspconfig = require("lspconfig")
-
 			-- lspconfig.lua_ls.setup({ capabilities = capabilities })
 			-- lspconfig.python_lsp_server.setup({ capabilities = capabilities })
 			-- lspconfig.clangd.setup({ capabilities = capabilities })
-			lspconfig.arduino_language_server.setup {
-				cmd = {
-					"arduino-language-server",
-					"-cli-config", "/home/austin/.arduino15/arduino-cli.yaml",
-					"-fqbn", "arduino:uvr:uno",
-					"-cli", "/usr/bin/arduino-cli",
-					"-clangd", "/usr/bin/clangd"
-				}
-			}
+			-- vim.lsp.config.arduino_language_server.setup {
+			-- 	cmd = {
+			-- 		"arduino-language-server",
+			-- 		"-cli-config", "/home/austin/.arduino15/arduino-cli.yaml",
+			-- 		"-fqbn", "arduino:uvr:uno",
+			-- 		"-cli", "/usr/bin/arduino-cli",
+			-- 		"-clangd", "/usr/bin/clangd"
+			-- 	}
+			-- }
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})

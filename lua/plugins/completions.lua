@@ -43,8 +43,5 @@ return {
 				),
 			})
 		end,
-	},
-	{
-		'tzachar/cmp-tabnine',
 	}
 }
