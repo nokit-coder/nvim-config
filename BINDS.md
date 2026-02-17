@@ -39,3 +39,8 @@
 ## telescope (_fast open file with fzf_)
 #### NORMAL
 `<leader>fg` - open finder
+
+## camouflage (_secret hider_)
+`<leader>ct` - Toggle Camouflage
+`<leader>cr` - Reveal Line
+`<leader>cy` - Yank Value
