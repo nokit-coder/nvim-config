@@ -38,7 +38,7 @@
 
 ## telescope (_fast open file with fzf_)
 #### NORMAL
-`<leader>fg` - open finder
+`<leader>fg` - open file finder
 
 ## camouflage (_secret hider_)
 `<leader>ct` - Toggle Camouflage
@@ -54,3 +54,8 @@
 `<leader>pt` - Translate with PopAI
 #### VISUAL
 `<leader>pt` - Translate with PopAI
+
+## pj (_project finder_)
+#### NORMAL
+`<leader>fp` - Find Projects
+`<leader>fP` - Change to Project
