@@ -44,3 +44,13 @@
 `<leader>ct` - Toggle Camouflage
 `<leader>cr` - Reveal Line
 `<leader>cy` - Yank Value
+
+## sensei (_ai nvim helper_)
+#### NORMAL
+`<leader>ns` - ask question
+
+## popai (_ai helper_)
+#### NORMAL
+`<leader>pt` - Translate with PopAI
+#### VISUAL
+`<leader>pt` - Translate with PopAI
